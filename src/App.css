@@ -1,0 +1,214 @@
+/* All */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Martel:wght@200;300;400;600;700;800;900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+/* font-family: 'Alegreya', serif;
+font-family: 'Martel', serif;
+font-family: 'Old Standard TT', serif; */
+/* https://coolors.co/379392-141820-dfded6-5a58da-c46d5e */
+
+/* <div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.label {
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+hr {
+  margin: 20px;
+}
+
+/* PAGES */
+
+/* Home */
+
+.home {
+  background-image: url("./images/Edinburgh.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  width: 100%;
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+}
+
+.login {
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-image: linear-gradient(to left top, #141820, #162a4c, #1c3c7b, #334bab, #5a58da);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  color: rgb(223, 222, 214);
+  padding: 100px 50px;
+  border-radius: 25px;
+}
+
+.login input {
+  border-radius: 10px;
+  padding: 5px 20px;
+  color: rgb(20, 24, 32);
+  background-color: rgb(223, 222, 214);
+  margin: 10px
+}
+
+.login button {
+  margin: 50px 0 0 0;
+  padding: 5px 20px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inputs label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+/* Forms */
+
+.container-companyForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-companyForm label {
+  margin: 10px 15px;
+}
+
+.container-companyForm input {
+  margin: 10px 0;
+}
+
+.container-1 {
+  display: flex;
+  flex-wrap: wrap; 
+  align-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.s1 {
+  flex-grow: 0;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Martel', serif;
+}
+
+.s2 {
+  flex-grow: 1;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: rgb(20, 24, 32, 0.24) 0px 3px 8px;
+}
+
+/* Map */
+
+.leaflet-container {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+/* Company */
+
+.container-company {
+  margin: 50px auto;
+  width: 70%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  /* background-image: linear-gradient(to left top, #141820, #162a4c, #1c3c7b, #334bab, #5a58da);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+  border:#141820 solid 5px;
+  box-shadow: rgba(20, 24, 32, 0.25) 0px 54px 55px, rgba(20, 24, 32, 0.12) 0px -12px 30px, rgba(020, 24, 32, 0.12) 0px 4px 6px, rgba(20, 24, 32, 0.17) 0px 12px 13px, rgba(20, 24, 32, 0.09) 0px -3px 5px;
+  color: #141820;
+  padding: 50px 50px;
+  border-radius: 25px;
+  background-color: rgb(223, 222, 214);
+}
+
+/* Product */
+
+.imgProduct img {
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin: auto;
+  width: 30%;
+}
+
+/* COMPONENTS */
+
+/* Header */
+
+.nav {
+  font-family: Alegreya;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 40px;
+  text-align: right;
+  background-image: linear-gradient(to left top, #141820, #162a4c, #1c3c7b, #334bab, #5a58da);
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  color: rgb(223, 222, 214);
+}
+
+.nav span {
+  padding: 0 30px;
+}
+
+.navLink {
+  text-decoration: none;
+}
+
+.navLink:visited {
+  color: rgb(223, 222, 214);
+}
+
+/* SubHeader */
+
+.container-subHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  font-family: 'Alegreya', serif;
+}
+
+.subBtn button {
+  margin-right: 5px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  bottom: 0;
+  position: fixed;
+}
+
+.fText {
+  text-align: center;
+  padding: 20px;
+  color: rgb(219, 219, 219);
+  background-color: rgb(24, 24, 24);
+}

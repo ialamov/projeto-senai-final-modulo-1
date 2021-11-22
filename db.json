@@ -1,0 +1,43 @@
+{
+  "produtos": [],
+  "empresas": [
+    {
+      "companyName": "INVOLVES SOLUCOES TECNOLOGICAS S/A",
+      "companyFantasyName": "INVOLVES TECNOLOGIA",
+      "companyRegistration": "10.903.643/0001-07",
+      "companyEmail": "financeiro@involves.com",
+      "zipCode": "88085-150",
+      "address": "Avenida Patricio Caldeira de Andrade",
+      "addressNumber": "1156",
+      "neighborhood": "CAPOEIRAS",
+      "city": "FLORIANOPOLIS - SC",
+      "otherInformation": "(48) 3733-0500",
+      "longitude": "-48.59352513115031",
+      "latitude": "-27.60192523529963",
+      "id": 1
+    },
+    {
+      "companyName": "PARIPASSU APLICATIVOS ESPECIALIZADOS LTDA",
+      "companyFantasyName": "PARIPASSU APLICATIVOS ESPECIALIZADOS",
+      "companyRegistration": "07.661.189/0001-02",
+      "companyEmail": "aline@paripassu.com.br",
+      "zipCode": "88032-005",
+      "address": "Rodovia Jose Carlos Daux",
+      "addressNumber": "5500",
+      "neighborhood": "SACO GRANDE",
+      "city": "FLORIANOPOLIS - SC",
+      "otherInformation": "Sala 201 202 203 204 e 206 Bloco Torre Lagoa",
+      "longitude": "-48.50915495484086",
+      "latitude": "-27.535315745010855",
+      "id": 2
+    }
+  ],
+  "fornecedores": [],
+  "categorias": [
+    "Carnes",
+    "Ovos",
+    "Higiene",
+    "Cereais",
+    "Massas"
+  ]
+}
